@@ -1,2 +1,2 @@
-# svelte_demo_ddypoll
-the first demo with svelte about poll.
+### v1
+- Add header and footer
