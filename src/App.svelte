@@ -1,15 +1,23 @@
 <script>
+  import Tabs from "./shared/Tabs.svelte";
   import Footer from "./component/Footer.svelte";
   import Header from "./component/Header.svelte";
+
+  let items = ["Current Polls", "Add New Poll"];
+  let activeItem = "Current Polls";
+  const tabChange = (e) => {
+    activeItem = e.detail;
+  };
 </script>
 
 <Header />
 <main>
-  <p>
-    Hello ddy!-g means installing this package globally on my compute so we can
-    use it anywhere in any directory-g means installing this package globally on
-    my compute so we can use it anywhere in any directory
-  </p>
+  <Tabs {items} {activeItem} on:tabChange={tabChange} />
+  {#if activeItem === "Current Polls"}
+    <p>this is current polls</p>
+  {:else if activeItem === "Add New Poll"}
+    <p>Do you want to add new poll?</p>
+  {/if}
 </main>
 
 <Footer />
