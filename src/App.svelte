@@ -1,8 +1,8 @@
 <script>
+  import CreatePollForm from "./component/CreatePollForm.svelte";
   import Tabs from "./shared/Tabs.svelte";
   import Footer from "./component/Footer.svelte";
   import Header from "./component/Header.svelte";
-
   let items = ["Current Polls", "Add New Poll"];
   let activeItem = "Current Polls";
   const tabChange = (e) => {
@@ -16,7 +16,7 @@
   {#if activeItem === "Current Polls"}
     <p>this is current polls</p>
   {:else if activeItem === "Add New Poll"}
-    <p>Do you want to add new poll?</p>
+    <CreatePollForm />
   {/if}
 </main>
 
