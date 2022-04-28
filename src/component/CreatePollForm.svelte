@@ -1,4 +1,5 @@
 <script>
+  import Button from "./../shared/Button.svelte";
   let fields = { question: "", answerA: "", answerB: "" };
   const submidHandler = () => {
     console.log(fields);
@@ -18,7 +19,7 @@
     <label for="answer-b">Answer-B:</label>
     <input type="text" id="answer-b" bind:value={fields.answerB} />
   </div>
-  <button>Add Poll</button>
+  <Button type="secondary" flat={true} inverse={true}>Add Poll</Button>
 </form>
 
 <style>
