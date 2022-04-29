@@ -13,3 +13,6 @@
 ### v5
 - Custom Form Validation
 
+### v6
+- add new polls
+
