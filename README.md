@@ -16,3 +16,6 @@
 ### v6
 - add new polls
 
+### v7
+- Poll details component & Card component
+

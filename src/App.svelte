@@ -19,8 +19,8 @@
       question: "python or javascript",
       answerA: "python",
       answerB: "javascript",
-      votesA: "9",
-      votesB: "15",
+      votesA: 9,
+      votesB: 15,
     },
   ];
   const handleAdd = (e) => {
