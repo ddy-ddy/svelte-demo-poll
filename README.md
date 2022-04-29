@@ -19,3 +19,8 @@
 ### v7
 - Poll details component & Card component
 
+### v8
+- Casting votes
+
+### v9
+- Vote bars
