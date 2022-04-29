@@ -24,3 +24,6 @@
 
 ### v9
 - Vote bars
+
+### v10
+- Introduction to stores
