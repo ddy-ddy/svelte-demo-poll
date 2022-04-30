@@ -18,6 +18,9 @@
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1s33ogw4dj21c00u0jt2.jpg" style="zoom:43%;" />
 
+- demo组件结构
+
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1s4m4bvlej216t0u0wgr.jpg" style="zoom:50%;" />
 - 该demo效果可在该网站上预览：[https://ddy-poll.surge.sh/](https://ddy-poll.surge.sh/)
 
 ------
