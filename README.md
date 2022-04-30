@@ -27,3 +27,6 @@
 
 ### v10
 - Introduction to stores
+
+### v11
+- Lifecycle hook & Updating Store Data
