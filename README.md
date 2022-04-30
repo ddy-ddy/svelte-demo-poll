@@ -30,3 +30,7 @@
 
 ### v11
 - Lifecycle hook & Updating Store Data
+
+### v12
+- Deleting Polls
+

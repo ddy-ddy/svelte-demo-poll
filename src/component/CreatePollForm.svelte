@@ -32,8 +32,8 @@
 
     if (valid) {
       let poll = { ...fields, votesA: 0, votesB: 0, id: Math.random() };
-      PollStore.update((currentPoll) => {
-        return [poll, ...currentPoll];
+      PollStore.update((currentPolls) => {
+        return [poll, ...currentPolls];
       });
       dispatch("add");
     }
